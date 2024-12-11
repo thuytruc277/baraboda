@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>바라보다</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+
+  <!-- css (1.reset 2.swiper 3.main) -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+  <div class="wrap">
+    <header id="header">
+      <div class="inner">
+        <h1><a href="#"><img src="images/logo_baraboda.png" alt="바라보다 logo"></a></h1>
+
+        <nav>
+          <ul class="gnb">
+            <li><a href="#">바라보다</a>
+              <ul class="depth2">
+                <li><a href="#">소개</a></li>
+                <li><a href="#">메뉴안내</a></li>
+              </ul>
+            </li>
+            <li><a href="#">만나다</a>
+              <ul class="depth2">
+                <li><a href="#">오시는길</a></li>
+              </ul>
+            </li>
+            <li><a href="#">쇼핑하다</a>
+              <ul class="depth2">
+                <li><a href="#">스페셜티</a></li>
+                <li><a href="#">선물세트</a></li>
+                <li><a href="#">커피용품</a></li>
+                <li><a href="#">커피백</a></li>
+              </ul>
+            </li>
+            <li><a href="#">마주보다</a>
+              <ul class="depth2">
+                <li><a href="#">매거진</a></li>
+                <li><a href="#">질문과 답변</a></li>
+                <li><a href="#">구매후기</a></li>
+              </ul>
+            </li>
+          </ul><!-- gnb e -->
+          <button class="ham">메뉴보기</button>
+
+          <div class="dim"></div> <!-- phần background đen mờ dưới menu mobile -->
+          <div class="mgnb_wrap"> <!-- mobile area -->
+            <ul class="mgnb">
+              <li><a href="#">바라보다</a>
+                <ul class="mdepth2">
+                  <li><a href="#">소개</a></li>
+                  <li><a href="#">메뉴안내</a></li>
+                </ul>
+              </li>
+              <li><a href="#">만나다</a>
+                <ul class="mdepth2">
+                  <li><a href="#">오시는길</a></li>
+                </ul>
+              </li>
+              <li><a href="#">쇼핑하다</a>
+                <ul class="mdepth2">
+                  <li><a href="#">스페셜티</a></li>
+                  <li><a href="#">선물세트</a></li>
+                  <li><a href="#">커피용품</a></li>
+                  <li><a href="#">커피백</a></li>
+                </ul>
+              </li>
+              <li><a href="#">마주보다</a>
+                <ul class="mdepth2">
+                  <li><a href="#">매거진</a></li>
+                  <li><a href="#">질문과 답변</a></li>
+                  <li><a href="#">구매후기</a></li>
+                </ul>
+              </li>
+            </ul><!-- mgnb e -->
+            <button class="mgnb_close">메뉴닫기</button>
+          </div><!-- mgnb_wrap -->
+
+        </nav>
+
+        <ul class="util">
+          <li><button class="btn_login">마이페이지</button></li>
+          <li><button class="btn_cart">장바구니</button></li>
+          <li><button class="btn_search">검색창 열기</button></li>
+        </ul>
+
+      </div><!-- inner e -->
+    </header><!-- header e -->
+
+
+    <!-- search bow, nhấn vào hình tròn tìm kiếm "search" ở góc phải màn hình thì hiện ta, bấm tắt "search_close" thì mất -->
+    <div class="search">
+      <div class="search_box">
+        <form action="#">
+          <div class="input_box">
+            <input type="text" placeholder="검색어를 입력해주세요!">
+            <input type="submit" value="검색">
+          </div><!-- input_box -->
+        </form>
+      </div><!-- search_box -->
+      <button class="search_close">검색창 닫기</button>
+    </div><!-- search -->
+
+
+
+    <main id="main">
+      <section class="visual">
+        <div class="swiper visual_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <img src="images/main_visual_01.png" alt="배경사진1">
+              <div class="visual_txt">
+                <h3>사람과 기억 그리고 커피<br>
+                  모두가 추억이 되는 그 곳, 바라보다</h3>
+                <h2>Baraboda Coffee and Roaster</h2>
+              </div><!-- visual_txt e-->
+            </li>
+            <li class="swiper-slide">
+              <img src="images/main_visual_02.png" alt="배경사진2">
+              <div class="visual_txt">
+                <h3>바라보다 스페셜 커피와 함께<br>
+                  좀 더 여유롭고 설레는 하루가 되기를</h3>
+                <h2>Baraboda Coffee and Roaster</h2>
+              </div><!-- visual_txt e-->
+            </li>
+          </ul><!-- swiper-wrapper e -->
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+
+        </div><!-- swiper visual_list e -->
+
+      </section><!-- visual e -->
+
+      <section class="story">
+        <div class="story_tit">
+          <h2>Baraboda Brand Story</h2>
+          <h3>사람과 기억<br>
+            그리고 커피, 모두가<br>
+            추억이 되는 곳</h3>
+          <p>커피와 일상이 만나는 방법에 대해 오랫동안 고민해 온 우리는<br>
+            2016년 어느 날, 나무가 있고 바람이 기분좋게 부는 곳에서 시작되었습니다.<br>
+            그리고 더 가까이에서 바라보기 위해 바라보다 스페셜티를 온라인에서 선보입니다.<br>
+            처음 시작했던 설레는 그 마음을 담아 오늘도 당신을 만나러 갑니다.</p>
+        </div><!-- story_tit e -->
+
+        <div class="inner">
+          <div class="story_txt" data-aos="zoom-out-right">
+            <div class="swiper story_txt_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <h4>우리는 언제나, 어디서나, 누구나<br>
+                    좋은 커피를 만날 수 있기를 바랍니다.</h4>
+                  <p>We hope that anyone, anytime,<br>
+                    anywhere can meet delicious coffee.</p>
+                </li>
+                <li class="swiper-slide">
+                  <h4>커피를 만드는 사람들의 노력이<br>
+                    누구에게나 향할 수 있도록</h4>
+                  <p>So that the efforts of coffee makers<br>
+                    can be directed to everyone.</p>
+                </li>
+                <li class="swiper-slide">
+                  <h4>우리는 커피 만드는 사람과<br>
+                    마시는 사람 모두를 생각합니다.</h4>
+                  <p>We care about both those<br>
+                    who make coffee and those who drink it.</p>
+                </li>
+              </ul><!-- swiper-wrapper -->
+            </div><!-- swiper brand_txt -->
+          </div><!-- brand_txt -->
+
+          <div class="story_img">
+            <div class="swiper story_img_list">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <img src="images/story_01.png" alt="photo1">
+                </li>
+                <li class="swiper-slide">
+                  <img src="images/story_02.png" alt="photo2">
+                </li>
+                <li class="swiper-slide">
+                  <img src="images/story_03.png" alt="photo3">
+                </li>
+              </ul><!-- swiper-wrapper -->
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div><!-- inner e -->
+      </section><!-- story e -->
+
+
+      <section class="brand">
+        <div class="brand_tit">
+          <h2>Baraboda Specialty Coffee</h2>
+          <h3>커피를 바라보다</h3>
+          <p>'바라보다'가 제공하는 좋은 원두가 아름다운 공간에서<br>
+            향기로운 커피 한잔과 함께 당신에게 소중한 추억이 될 수 있기를 바라봅니다.</p>
+        </div><!-- brand_tit e -->
+
+        <div class="swiper prd_list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#"><img src="images/product_01.jpg" alt="상품1">
+                <strong>에티오피아 예가체프</strong>
+                <span>13,000원</span></a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#"><img src="images/product_02.jpg" alt="상품2">
+                <strong>과테말라 와이칸</strong>
+                <span>13,000원</span></a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#"><img src="images/product_03.jpg" alt="상품3">
+                <strong>인도네시아 수마트라</strong>
+                <span>13,000원</span></a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#"><img src="images/product_04.jpg" alt="상품4">
+                <strong>콜롬비아 수프리모</strong>
+                <span>13,000원</span></a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#"><img src="images/product_01.jpg" alt="상품1">
+                <strong>에티오피아 예가체프</strong>
+                <span>13,000원</span></a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#"><img src="images/product_02.jpg" alt="상품2">
+                <strong>과테말라 와이칸</strong>
+                <span>13,000원</span></a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#"><img src="images/product_03.jpg" alt="상품3">
+                <strong>인도네시아 수마트라</strong>
+                <span>13,000원</span></a>
+            </li>
+            <li class="swiper-slide">
+              <a href="#"><img src="images/product_04.jpg" alt="상품4">
+                <strong>콜롬비아 수프리모</strong>
+                <span>13,000원</span></a>
+            </li>
+          </ul>
+          <div class="btn_more"><a href="#">view more</a></div>
+        </div><!-- prd_list -->
+
+      </section><!-- brand e -->
+
+
+
+      <section class="gallery">
+        <div class="inner">
+          <h2>About Baraboda Coffee</h2>
+          <h3>마주보다</h3>
+          <p>우리는 커피를 사랑하는 사람들과 함께 성장합니다.<br>
+            바라보다와 함께한 당신의 이야기를 들려주세요.</p>
+          <ul>
+            <li>
+              <dl>
+                <dt>MEET BARABODA</dt>
+                <dd>카페 바라보다의 위치를 확인하세요.</dd>
+                <dd class="btn_more"><a href="#">view more</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>BARABODA AT HOME</dt>
+                <dd>바라보다의 스페셜티를 이제 홈카페에서 즐겨보세요.</dd>
+                <dd class="btn_more"><a href="#">view more</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt>MORE SPECIAL</dt>
+                <dd>스페셜티를 더 스페셜하게 맞춤 로스팅 해드립니다.</dd>
+                <dd class="btn_more"><a href="#">view more</a></dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+
+
+      </section><!-- gallery e -->
+
+    </main><!-- main e -->
+
+
+    <footer id="footer">
+      <div class="inner">
+        <div class="footer_logo"><img src="images/logo_baraboda.png" alt="logo"></div>
+        <div class="footer_txt">
+          상호명 <strong>주식회사 미스터콩</strong><br>
+          주소 <strong>경기도 남양주시 진건읍 진건우회로 19번길 11 미스터콩</strong><br>
+          대표자 <strong>권영석</strong> 사업자등록번호 <strong>120-87-97585</strong> 고객센터 <strong>031-575-1171</strong>
+          <div class="copy">Copyright &copy; 2020 바라보다. All rights reserved.</div>
+        </div>
+      </div>
+
+    </footer><!-- footer e -->
+  </div><!-- wrap e -->
+
+
+
+
+  <!-- jquery swiper main -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/main.js">  </script>
+</body>
+
+</html>
